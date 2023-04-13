@@ -1,0 +1,38 @@
+body {
+    display: inline-block;
+}
+
+#conteudo input,
+#conteudo button {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#conteudo button {
+    background-color: rgb(67, 67, 253);
+    width: 320px;
+    color: white;
+    border: none;
+}
+#conteudo p {
+    font-size: 12px;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    width: 315px;
+    display: none;
+}
+
+#conteudo .msg_2 {
+    font-size: 14px;
+    background-color: red;
+    color: white);
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
